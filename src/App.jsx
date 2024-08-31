@@ -10,7 +10,7 @@ import ProgressBar from "./components/ProgressBar";
 import FinishScreen from "./components/FinishScreen";
 import Timer from "./components/Timer";
 import Footer from "./components/Footer";
-import logo from "/asset/logo512.png";
+import logo from "./asset/logo512.png";
 import { Suspense, lazy } from "react";
 const StartScreen = lazy(() => import("./components/StartScreen"));
 
